@@ -42,6 +42,38 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.32.0
+    created: "2025-08-15T16:09:12.455617872Z"
+    description: Contour is an open source Kubernetes ingress controller that works
+      by deploying the Envoy proxy as a reverse proxy and load balancer.
+    digest: eca042eb7e7ad5fa177479b1ed557cc3de5486615ca06c03b39af1bd711bd011
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/contour/img/contour-stack-220x234.png
+    keywords:
+    - ingress
+    - envoy
+    - contour
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: contour
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/contour
+    urls:
+    - https://github.com/deepy/contour-chart/releases/download/contour-21.1.1/contour-21.1.1.tgz
+    version: 21.1.1
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: contour
+          image: docker.io/bitnami/contour:1.32.0-debian-12-r7
+        - name: envoy
+          image: docker.io/bitnami/envoy:1.34.4-debian-12-r0
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.29.0-debian-12-r6
+      licenses: Apache-2.0
+      tanzuCategory: clusterUtility
+    apiVersion: v2
+    appVersion: 1.32.0
     created: "2025-08-15T15:39:51.154540063Z"
     dependencies:
     - name: common
@@ -67,4 +99,4 @@ entries:
     urls:
     - https://github.com/deepy/contour-chart/releases/download/contour-21.1.0/contour-21.1.0.tgz
     version: 21.1.0
-generated: "2025-08-15T15:39:51.154547997Z"
+generated: "2025-08-15T16:09:12.45562808Z"
