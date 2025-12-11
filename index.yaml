@@ -175,6 +175,33 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.33.0
+    created: "2025-12-11T20:12:24.828779194Z"
+    dependencies:
+    - condition: contour.manageCRDs
+      name: contour-crds
+      repository: file://../contour-crds
+      version: 0.1.0
+    description: Contour is an open source Kubernetes ingress controller that works
+      by deploying the Envoy proxy as a reverse proxy and load balancer.
+    digest: ae4dd62b8e9c76b71abf6b9140786d00f0719a4225303585cb29d80d09b40d2d
+    home: https://projectcontour.io/
+    keywords:
+    - ingress
+    - envoy
+    - contour
+    maintainers:
+    - name: Contour Team
+    name: contour
+    sources:
+    - https://github.com/projectcontour/helm-charts/tree/main/charts/contour
+    urls:
+    - https://github.com/deepy/contour-chart/releases/download/contour-0.3.1/contour-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.33.0
     created: "2025-12-11T20:06:35.823712836Z"
     dependencies:
     - name: contour-crds
@@ -242,4 +269,4 @@ entries:
     urls:
     - https://github.com/deepy/contour-chart/releases/download/contour-crds-0.1.0/contour-crds-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-11T20:06:35.823729507Z"
+generated: "2025-12-11T20:12:24.82879873Z"
