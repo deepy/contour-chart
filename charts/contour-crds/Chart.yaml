@@ -2,7 +2,7 @@ annotations:
   category: Infrastructure
   licenses: Apache-2.0
 apiVersion: v2
-description: CustomResourceDefinitions for Contour and Gateway API, packaged separately for centralized management.
+description: CustomResourceDefinitions for Contour and Gateway API, packaged separately for centralized management. Test.
 home: https://projectcontour.io/
 keywords:
 - ingress
@@ -14,5 +14,5 @@ maintainers:
 name: contour-crds
 sources:
 - https://github.com/projectcontour/helm-charts/tree/main/charts/contour-crds
-version: 0.2.0
+version: 0.2.1
 appVersion: 1.33.0
