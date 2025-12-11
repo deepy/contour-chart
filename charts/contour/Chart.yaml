@@ -18,5 +18,4 @@ sources:
 version: 0.3.0
 dependencies:
   - name: contour-crds
-    version: 0.0.1
     repository: file://../contour-crds
