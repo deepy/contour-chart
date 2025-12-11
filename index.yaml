@@ -192,4 +192,28 @@ entries:
     urls:
     - https://github.com/deepy/contour-chart/releases/download/contour-0.2.0/contour-0.2.0.tgz
     version: 0.2.0
-generated: "2025-12-11T19:34:01.776858682Z"
+  contour-crds:
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.33.0
+    created: "2025-12-11T19:37:22.120215966Z"
+    description: CustomResourceDefinitions for Contour and Gateway API, packaged separately
+      for centralized management.
+    digest: 0fa134c6bf4d7c78f2c404697e1db91b42cc1b97231523863015058d38e88fa2
+    home: https://projectcontour.io/
+    keywords:
+    - ingress
+    - envoy
+    - contour
+    - crd
+    maintainers:
+    - name: Contour Team
+    name: contour-crds
+    sources:
+    - https://github.com/projectcontour/helm-charts/tree/main/charts/contour-crds
+    urls:
+    - https://github.com/deepy/contour-chart/releases/download/contour-crds-0.1.0/contour-crds-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-12-11T19:37:22.12023964Z"
